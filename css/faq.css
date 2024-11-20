@@ -1,0 +1,98 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(../font/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(../font/Poppins-Bold.ttf);
+}
+* {
+  font-family: Poppins-Regular;
+  font-size: 14px;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+.my-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+.my-title h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.my-title a {
+  font-size: 18px;
+  font-weight: bold;
+}
+.my-title a i {
+  margin: 0 0 0 0.5rem;
+}
+
+section.page-title {
+  margin: 2rem 0;
+}
+section.page-title h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+section.page-title nav {
+  margin: 0.75rem 0;
+}
+
+div#faq-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-start;
+}
+div#faq-page main {
+  width: 70%;
+  margin: 3rem 1.5rem 3rem 0;
+}
+div#faq-page aside {
+  margin: 3rem 1.5rem 3rem 0;
+  width: 30%;
+}
+div#faq-page aside div.my-help {
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  padding: 2rem 2.5rem;
+}
+div#faq-page aside div.my-help h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 1.5rem 0;
+}
+div#faq-page aside div.my-help div.help-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+div#faq-page aside div.my-help div.help-item div.help-icon {
+  width: 10%;
+  margin: 0 1.5rem 0 0;
+}
+div#faq-page aside div.my-help div.help-item div.help-icon i {
+  font-size: 32px;
+}
+div#faq-page aside div.my-help div.help-item div.help-des {
+  width: 90%;
+}
+div#faq-page aside div.my-help div.help-item div.help-des p {
+  margin: 0;
+  font-size: 20px;
+  margin: 0 0 0.2 rem 0;
+}
+div#faq-page aside div.my-help div.help-item div.help-des span {
+  color: #646464;
+  font-size: 14px;
+}/*# sourceMappingURL=faq.css.map */

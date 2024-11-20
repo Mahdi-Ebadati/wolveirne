@@ -1,0 +1,181 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(../font/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(../font/Poppins-Bold.ttf);
+}
+* {
+  font-family: Poppins-Regular;
+  font-size: 14px;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+.my-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+.my-title h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.my-title a {
+  font-size: 18px;
+  font-weight: bold;
+}
+.my-title a i {
+  margin: 0 0 0 0.5rem;
+}
+
+section.cover div.cover-des h1 {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+div.container-lg section.about {
+  margin: 3rem 0;
+}
+div.container-lg section.about div.about-pic {
+  padding: 0 2rem;
+}
+div.container-lg section.about div.about-des h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+}
+div.container-lg section.about div.about-des p {
+  margin: 2rem 0;
+  color: #666666;
+}
+div.container-lg section.about div.about-des div.d-flex {
+  align-items: flex-start;
+}
+div.container-lg section.about div.about-des div.d-flex span {
+  color: #EA1044;
+  font-size: 32px;
+  font-weight: bolder;
+}
+div.container-lg section.about div.about-des div.d-flex h5 {
+  margin: 0.5rem 0;
+  font-size: 20px;
+}
+div.container-lg section.about div.about-des div.d-flex p {
+  margin: 0;
+  font-size: 16px;
+}
+div.container-lg section.about div.about-des div.d-flex div {
+  width: 35%;
+  margin: 0 1rem 0 0;
+}
+div.container-lg section.about hr {
+  color: #666666;
+  margin: 2rem 0 0 0;
+}
+div.container-lg section.different {
+  padding: 2rem 0;
+}
+div.container-lg section.different div.title-custom {
+  text-align: center;
+}
+div.container-lg section.different div.title-custom h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+div.container-lg section.different div.title-custom p {
+  color: #666666;
+  padding: 1rem 5rem;
+}
+div.container-lg section.different div.row div.different-card:hover img {
+  transform: scale(1.1);
+}
+div.container-lg section.different div.row div.different-card div.different-pic {
+  overflow: hidden;
+}
+div.container-lg section.different div.row div.different-card div.different-pic img {
+  display: block;
+  transition: 0.75s;
+  border-radius: 5px;
+}
+div.container-lg section.different div.row div.different-card div.different-des h3 {
+  margin: 1rem 0;
+}
+div.container-lg section.different div.row div.different-card div.different-des h3 a {
+  font-weight: bold;
+  font-size: 20px !important;
+}
+
+section.my-brands {
+  background-color: #F1F3F8;
+  padding: 3rem 0;
+}
+section.my-brands div.brands-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 2rem 0;
+}
+section.my-brands div.brands-title h2 {
+  font-weight: bold;
+  font-size: 28px;
+  margin: 0;
+  width: 40%;
+}
+section.my-brands div.brands-title p {
+  width: 40%;
+  margin: 0.5rem 0;
+  color: #666666;
+}
+section.my-brands div.row div.col-lg-2 div.brands-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem 0;
+}
+section.my-brands div.row div.col-lg-2 div.brands-card img {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (max-width: 992px) {
+  section.cover div.cover-des h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  section.my-brands div.brands-title h2 {
+    font-size: 24px;
+  }
+  section.my-brands div.brands-title p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  section.cover div.cover-des h1 {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  section.my-brands div.brands-title h2 {
+    font-size: 18px;
+    width: 50%;
+  }
+  section.my-brands div.brands-title p {
+    font-size: 12px;
+    width: 45%;
+  }
+}
+@media screen and (max-width: 576px) {
+  section.cover div.cover-des h1 {
+    font-size: 16px;
+    font-weight: bolder;
+  }
+}/*# sourceMappingURL=about-us.css.map */

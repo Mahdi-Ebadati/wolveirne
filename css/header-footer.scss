@@ -1,0 +1,168 @@
+@import "variable";
+@import "basic";
+@import "component";
+header{
+    text-transform: uppercase;
+    nav.navbar{
+        div.container-fluid{
+            div.collapse{
+                padding: 0 .8em;
+                ul.navbar-nav{
+                    width: 60%;
+                    li{
+                        padding: 0 .2em !important;
+                        margin: 0 !important;
+                        a{
+                            position: relative;
+                            transition: .4s;
+                            overflow: hidden;
+                            &:hover{
+                                color: $color-primary !important;
+                            }
+                            &:hover::after{
+                                    left: 0;
+                            }
+                            &::after{
+                                    content: "";
+                                    width: 100%;
+                                    height: 1.5px;
+                                    background-color: $color-primary;
+                                    position: absolute;
+                                    left: 100%;
+                                    bottom: 0;
+                                    transition: .5s;
+                            }
+                        }
+                    }
+                }
+                form{
+                    width: 40%;
+                }        
+            }
+            div.login{
+                    padding: 0 .1em;
+                    a{
+                        margin: 0 .3em;
+                        i{
+                            transition: .4s;
+                            font-size: 18px;
+                            &:hover{
+                            color: $color-primary;
+                            }
+                        }
+                    }
+            }            
+        }
+    }
+}
+footer{
+    background-color: #222222;
+    color: #fff;
+    padding: 1rem 0;
+    div.container-fluid{
+        div.top-footer{
+            div.call{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                div.phone-icon{
+                    padding: 1rem;
+                    margin: 1rem 0;               
+                    i{
+                        font-size: 25px;
+                    }
+                }
+                div.phone-num{
+                    margin: 1rem 0;                
+                    padding: .25rem;
+                    p{
+                        padding: 0;
+                        margin: 0;
+                        font-size: 20px;
+                    }
+                    span{
+                        display: inline-block;
+                        padding: 0;
+                        color: #666666;
+                    }
+                }
+            }
+            div.social{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                margin: 1rem 0;               
+                p{
+                    display: inline-block;
+                    margin: 0 1.5rem 0 0;
+                    font-size: 12px;
+                }
+                span{
+                    @include centering();
+                    width: 40px;
+                    height: 40px;
+                    border: 1px solid #727272;
+                    border-radius: 50%;
+                    transition: .4s;
+                    margin: 0 0.2rem ;
+                    &:hover{
+                        background-color: $color-primary;
+                        border: 1px solid $color-primary;
+                    }
+                    a{
+                        i{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+        div.middle-footer{
+            padding: 1.5rem 0;
+            nav{
+                margin: 0;
+                padding: 0;
+                li{
+                    list-style: none;
+                    h2{
+                        font-size: 24px;
+                        margin: 0 0 1rem 0;
+                    }
+                    a{
+                        font-size: 14px;
+                        padding: .35rem 0 ;
+                        transition: .4s;
+                        color: #666666 !important;
+                        &:hover{
+                            color: $color-primary !important;
+                        }
+                    }
+                }
+            }
+        }
+        div.bottom-footer{
+            padding: 1.5rem 0;
+            h3{
+                font-size: 18px;
+                color: #666666;
+            }
+        }
+        hr{
+            color: #666666;
+        }
+    }
+}
+@media screen and (max-width:768px){
+    footer{
+        div.container-fluid{
+            div.top-footer{
+                div.call{
+                    justify-content: center;
+                }
+                div.social{
+                    justify-content: center;
+                }
+            }
+        }        
+    }
+}

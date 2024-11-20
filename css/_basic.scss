@@ -1,0 +1,17 @@
+@font-face {
+    font-family:Poppins-Regular ;
+    src: url(../font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family:Poppins-Bold ;
+    src: url(../font/Poppins-Bold.ttf);
+}
+*{
+    font-family:Poppins-Regular ;
+    font-size: 14px;
+}
+a{
+    color: inherit !important;
+    text-decoration: none !important;
+    display: inline-block;
+}

@@ -1,0 +1,104 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(../font/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(../font/Poppins-Bold.ttf);
+}
+* {
+  font-family: Poppins-Regular;
+  font-size: 14px;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+.my-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+.my-title h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.my-title a {
+  font-size: 18px;
+  font-weight: bold;
+}
+.my-title a i {
+  margin: 0 0 0 0.5rem;
+}
+
+section.cover div.cover-des h1 {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+div.container-lg div.row {
+  padding: 3rem 0;
+}
+div.container-lg div.row div.col-md-6 div.letter h2 {
+  font-size: 28px;
+  font-weight: bolder;
+}
+div.container-lg div.row div.col-md-6 div.letter p {
+  width: 90%;
+  color: #666666;
+}
+div.container-lg div.row div.col-md-6 div.letter form {
+  padding: 1.5rem 0;
+}
+div.container-lg div.row div.col-md-6 div.letter form input, div.container-lg div.row div.col-md-6 div.letter form textarea {
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+}
+div.container-lg div.row div.col-md-6 div.letter form input[type=text] {
+  display: inline-block;
+  width: 40%;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0.5rem 1rem 0;
+}
+div.container-lg div.row div.col-md-6 div.letter form input[type=email] {
+  display: inline-block;
+  width: 40%;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0.5rem 1rem 0;
+}
+div.container-lg div.row div.col-md-6 div.letter form textarea {
+  display: block;
+  width: 82%;
+  margin: 0 0 1rem 0;
+}
+div.container-lg div.row div.row {
+  padding: 0;
+}
+div.container-lg div.row div.row div.col-sm-6 div.call-us h2 {
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 0 0 1rem 0;
+}
+div.container-lg div.row div.row div.col-sm-6 div.call-us p {
+  margin: 0.35rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  div.container-lg div.row div.col-md-6 div.letter form input[type=text] {
+    width: 45%;
+  }
+  div.container-lg div.row div.col-md-6 div.letter form input[type=email] {
+    width: 45%;
+  }
+  div.container-lg div.row div.col-md-6 div.letter form textarea {
+    width: 100%;
+  }
+  div.container-lg div.row div.col-md-6 div.letter form input[type=submit] {
+    width: 100px;
+    height: 50px;
+  }
+}/*# sourceMappingURL=contact-us.css.map */
